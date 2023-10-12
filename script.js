@@ -1,4 +1,3 @@
-let alarmSound = new Audio('beep_beep.mp3')
 const subContainer = document.getElementById('sub-container');
 const instructions = document.getElementById('instructions')
 const inputBox = document.getElementById('inputBox');
@@ -33,13 +32,6 @@ function timeUpdation(){
                 }
             }
             else{
-                let c = setInterval(() => {
-                    alarmSound.play();
-                }, 1000);
-                setTimeout(() => {
-                    clearInterval(c);
-                }, 2000);
-                alarmSound.play();
                 setInterval(() => {
                     // inputBox.style.backgroundColor = 'aqua';
                     inputBox.style.color = 'black';
