@@ -27,7 +27,7 @@
     border: 14px solid rgb(170, 170, 170);
     background-color: rgb(110, 110, 110);
     color: rgb(0, 255, 0);
-    box-shadow: 9px 9px rgb(210, 210, 210);
+    box-shadow: 6px 6px rgb(210, 210, 210);
     outline: 1px solid rgb(160, 160, 160);
     outline-offset: 0px;
     font-size: 60px;
@@ -96,7 +96,7 @@ input::-webkit-inner-spin-button {
     #inputBox{
         border-width: 3px;
         font-size: 40px;
-        box-shadow: 6px 6px rgb(210, 210, 210);
+        box-shadow: 4px 4px rgb(210, 210, 210);
     }
     .inputs{
         font-size: 40px;
@@ -121,7 +121,7 @@ input::-webkit-inner-spin-button {
     #inputBox{
         font-size: 30px;
         border-width: 2px;
-        box-shadow: 5px 5px rgb(210, 210, 210);
+        box-shadow: 3px 3px rgb(210, 210, 210);
     }
     .inputs{
         font-size: 30px;
