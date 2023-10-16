@@ -5,7 +5,6 @@ const submit = document.getElementById('submit');
 const pause = document.getElementById('pause');
 const resume = document.getElementById('resume');
 const restart = document.getElementById('restart');
-// subContainer.style.visibility = 'hidden';
 setTimeout(() => {
     subContainer.style.opacity = '1';
     instructions.style.opacity = '1';
@@ -33,18 +32,14 @@ function timeUpdation(){
             }
             else{
                 setInterval(() => {
-                    // inputBox.style.backgroundColor = 'aqua';
-                    inputBox.style.color = 'black';
+                    inputBox.style.color = 'rgb(110,110,110)';
                     for(let i = 0; i<inputFields.length; i++){
-                        // inputFields[i].style.backgroundColor = 'aqua';
-                        inputFields[i].style.color = 'black';
+                        inputFields[i].style.color = 'rgb(110,110,110)';
                     }
                     setTimeout(() => {
-                        // inputBox.style.backgroundColor = 'black';
-                        inputBox.style.color = 'aqua';
+                        inputBox.style.color = 'rgb(0,255,0)';
                         for(let i = 0; i<inputFields.length; i++){
-                            // inputFields[i].style.backgroundColor = 'black';
-                            inputFields[i].style.color = 'aqua';
+                            inputFields[i].style.color = 'rgb(0,255,0)';
                         }
                     }, 250);
                 }, 600);
@@ -122,7 +117,7 @@ function valueCheck(){
         setTimeout(() => {
             instructions.innerHTML = 'Please enter a valid time'
             instructions.style.opacity = '1';
-        }, 1000);
+        }, 500);
     }
 }
 
